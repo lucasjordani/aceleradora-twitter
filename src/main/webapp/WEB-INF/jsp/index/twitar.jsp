@@ -14,7 +14,7 @@
 	<form action = "${linkTo[IndexController].twitar}" method = "post">
 	<c:forEach items="${tweetList}" var = "tweet">
 		<p>Autor: ${tweet.autor} - Tweet: ${tweet.mensagem} - Data e Hora: ${tweet.data} 
-		<input type = "??????????????" value = "Excluir"></p>
+		<input type = "exclude" value = "Excluir"></p>
 	</c:forEach>
 	</form>
 </body>
