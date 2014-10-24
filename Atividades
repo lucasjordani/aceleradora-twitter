@@ -1,0 +1,8 @@
+- Adicionar a pessoa que Twitou
+- Adicionar data e hora do Tweet (olhar a biblioteca JodaTime, ela já foi adicionada como dependência no nosso projeto ;)
+- Adicionar exclusão do tweet
+- Abrir direto a pagina da listagem ao acessar /twitter
+- Redirecionar direto para a lista de tweets ao enviar um novo mostrando a mensagem de sucesso
+- Editar um tweet e mostrar que ele foi editado
+- Mostrar foto/nome usuario/quantidade de tweets
+- Adicionar um cabeçalho nos nossos JSPs (deem uma pesquisada em jsp:include) que sempre inclua aquela nossa tagzinha para imprimir as variáveis 

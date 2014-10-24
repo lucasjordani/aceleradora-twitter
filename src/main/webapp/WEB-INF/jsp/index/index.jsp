@@ -11,7 +11,9 @@
 </head>
 <body>
 	<form action = "${linkTo[IndexController].twitar}" method = "post">
-		<label> dado </label>
+		<label> Nome </label>
+		<input type = "text" name = "tweet.autor">
+		<label> Tweet </label>
 		<input type = "text" name = "tweet.mensagem">
 		<input type = "submit" value = "Enviar">
 	</form>

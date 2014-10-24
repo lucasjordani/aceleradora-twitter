@@ -11,8 +11,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<form action = "${linkTo[IndexController].twitar}" method = "post">
 	<c:forEach items="${tweetList}" var = "tweet">
-		<p>${tweet.mensagem}</p>
+		<p>Autor: ${tweet.autor} - Tweet: ${tweet.mensagem} - Data e Hora: ${tweet.data} 
+		<input type = "??????????????" value = "Excluir"></p>
 	</c:forEach>
+	</form>
 </body>
 </html>
