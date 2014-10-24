@@ -16,8 +16,12 @@ public class BancoDeDados {
 		tweets = new ArrayList<Tweet>();
 	}
 	
-	public void adicionaTweet (Tweet tweet){
+	public void adicionaTweet(Tweet tweet){
 		tweets.add(tweet);
+	}
+	
+	public void excluir(){
+		tweets.remove(0);
 	}
 	
 	public List<Tweet> todosTweets(){

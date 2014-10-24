@@ -32,6 +32,10 @@ public class IndexController {
 	public List<Tweet> twitar (Tweet tweet, Result result){
 		banco.adicionaTweet(tweet);
 		return banco.todosTweets();
-		//result.forwardTo(this).recebeDados(tweet.getMensagem(), result);
+	}
+	
+	public List<Tweet> excluir(Tweet tweet, Result result){
+		banco.excluir();
+		return banco.todosTweets();
 	}
 }

@@ -11,15 +11,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action = "${linkTo[IndexController].excluir}" method = "post">
-	<c:forEach items="${tweetList}" var = "tweet">
-		<p>Autor: ${tweet.autor} - Tweet: ${tweet.mensagem} - Data e Hora: ${tweet.data}</p>
-	</c:forEach>
-	<input type = "submit" value = "Excluir">
-	</form>
-	<p></p>
 	<form action = "${linkTo[IndexController].index}" method = "post">
-	<input type = "submit" value = "Voltar">
+		<p>Tweet Excluído</p>
+		<input type = "submit" value = "Voltar">
 	</form>
 </body>
 </html>
